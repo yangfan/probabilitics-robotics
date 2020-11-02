@@ -1,5 +1,5 @@
 *.ipynb*
-*.gif
+# *.gif
 *.png
 *.mp4
 *.html
