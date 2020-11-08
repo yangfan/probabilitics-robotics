@@ -87,16 +87,20 @@ def prediction_step(odometry, mu, sigma):
     delta_trans = odometry['t']
     delta_rot2 = odometry['r2']
 
+    # predicated mean
     mu_t_bar = np.array([delta_trans * np.cos(theta + delta_rot1) + x,
                          delta_trans*np.sin(theta + delta_rot1) + y,
                          theta + delta_rot1 + delta_rot2])
 
+    # Jacobian
     G_t = np.array([[1, 0, -delta_trans * np.sin(theta + delta_rot1)],
                     [0, 1, delta_trans*np.cos(theta + delta_rot1)],
                     [0, 0, 1]])
 
+    # noise in the motion
     Q_t = np.array([[0.2, 0, 0], [0, 0.2, 0], [0, 0, 0.02]])
 
+    # predicated predicated covariance
     sigma_t_bar = G_t.dot(sigma).dot(G_t.T) + Q_t
 
     return mu_t_bar, sigma_t_bar
@@ -123,19 +127,27 @@ def correction_step(sensor_data, mu, sigma, landmarks):
     h = np.zeros(len(ids))
     H_t = np.zeros((len(ids), 3))
     row = 0
+
+    # noise in the sensor
     R_t = np.eye(len(ids)) * 0.5
 
     for id in ids:
+
+        # expected range
         l_i = np.sqrt((x - landmarks[id][0]) **
                       2 + (y - landmarks[id][1]) ** 2)
         h[row] = l_i
+
+        # row of Jacobian
         H_t[row] = [(x - landmarks[id][0]) / l_i,
                     (y - landmarks[id][1]) / l_i, 0]
         row += 1
 
+    # Kalman gain
     K_t = sigma.dot(H_t.T).dot(
         np.linalg.inv(H_t.dot(sigma).dot(H_t.T) + R_t))
 
+    # corrected mean and covariance
     mu_t = mu + K_t.dot(ranges - h)
     sigma_t = (np.eye(3) - K_t.dot(H_t)).dot(sigma)
 
