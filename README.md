@@ -1,4 +1,4 @@
-# Implementation of Bayes Filters
+# Implementation of algorithms in probabilistic robotics
 
 ## Particle Filter
 
@@ -7,3 +7,15 @@
 ## Extended Kalman Filter
 
 ![Farmers Market Finder - Animated gif demo](Kalman_filter/demo/kalman_filter.gif)
+
+## FastSLAM
+
+![Farmers Market Finder - Animated gif demo](FastSLAM/demo/fastslam.gif)
+
+The arrow represent the position and orientation of the particle with the highest weight (which could be different at different time step).
+The red dots represent the position of each particle.
+The red pixels represent the path of the particle with the highest weight.
+The gray pixels represent the path of all particles (some of paths may be disappear because of the resampling step).
+The blue crosses represent the ground-true position of the landmarks.
+The blue dots represent the estimated landmark positions of each particle.
+The ellipse is the error ellipse of estimated landmark positions of the particle with the highest weight.
