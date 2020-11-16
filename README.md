@@ -1,10 +1,10 @@
 # Implementation of algorithms in probabilistic robotics
 
-## Particle Filter
+## Particle Filter for localization
 
 ![Farmers Market Finder - Animated gif demo](Particle_filter/demo/particle_filter.gif)
 
-## Extended Kalman Filter
+## Extended Kalman Filter for localization
 
 ![Farmers Market Finder - Animated gif demo](Kalman_filter/demo/kalman_filter.gif)
 
