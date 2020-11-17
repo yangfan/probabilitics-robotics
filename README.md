@@ -26,6 +26,7 @@
 
 ![Farmers Market Finder - Animated gif demo](ICP/demo/icp_b.gif)
 
-(1) The black dots are in the reference reference point set.\
-(2) The blue dots are the points to be matched with the reference.\
-(3) The lines between dots indicate the matches.\
+(1) The black dots X are in the reference reference point set.\
+(2) The blue dots P0 are the points to be matched with the reference.\
+(3) The red dots P are the point set after the rotation and translation in each iteration.\
+(4) The lines between X and P indicate the matches.\
