@@ -19,3 +19,13 @@
 (5) The blue crosses represent the ground-true position of the landmarks.\
 (6) The blue dots represent the estimated landmark positions of each particle.\
 (7) The ellipse is the error ellipse of estimated landmark positions of the particle with the highest weight.
+
+## ICP
+
+![Farmers Market Finder - Animated gif demo](ICP/demo/icp_a.gif)
+
+![Farmers Market Finder - Animated gif demo](ICP/demo/icp_b.gif)
+
+(1) The black dots are in the reference reference point set.\
+(2) The blue dots are the points to be matched with the reference.\
+(3) The lines between dots indicate the matches.\
