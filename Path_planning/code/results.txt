@@ -1,0 +1,24 @@
+A* with 10
+cells expanded : 39
+path cost      : 57.33219203765201
+path length    : 42.28427124746189
+
+A* with 5
+cells expanded : 55
+path cost      : 51.380793533213904
+path length    : 32.38477631085024
+
+A* with 2
+cells expanded : 91
+path cost      : 38.24887217029314
+path length    : 35.79898987322333
+
+A* with 1
+cells expanded : 391
+path cost      : 36.948820168213054
+path length    : 36.384776310850235
+
+Dijkstra
+cells expanded : 605
+path cost      : 36.948820168213054
+path length    : 36.38477631085024
