@@ -1,6 +1,6 @@
 *.ipynb*
 # *.gif
-*.png
+# *.png
 *.mp4
 *.html
 *.sh
