@@ -191,7 +191,6 @@ def run_path_planning(occ_map, start, goal):
         if np.array_equal(parent, start) or np.array_equal(parent, goal):
             continue
         expandeds = np.vstack((expandeds, parent))
-        # expandeds += [parent]
         plot_map(occ_map, start, goal)
         plot_expanded(expandeds, start, goal)
         camera.snap()
@@ -203,7 +202,6 @@ def run_path_planning(occ_map, start, goal):
 
             if not np.array_equal(parent, goal):
                 paths = np.vstack((paths, parent))
-                # paths += [parent]
                 plot_map(occ_map, start, goal)
                 plot_expanded(expandeds, start, goal)
                 plot_path(paths, goal)

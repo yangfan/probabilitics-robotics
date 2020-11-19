@@ -195,8 +195,6 @@ def run_path_planning(occ_map, start, goal):
     else:
         print("no valid path found")
 
-    # save animation as .mp4
-
     # plot the costs
     plot_costs(costs)
     plt.show(block=True)
