@@ -2,15 +2,15 @@
 
 ## Particle Filter for localization
 
-![Farmers Market Finder - Animated gif demo](Particle_filter/demo/particle_filter.gif)
+![GitHub Logo](Particle_filter/demo/particle_filter.gif)
 
 ## Extended Kalman Filter for localization
 
-![Farmers Market Finder - Animated gif demo](Kalman_filter/demo/kalman_filter.gif)
+![GitHub Logo](Kalman_filter/demo/kalman_filter.gif)
 
 ## FastSLAM
 
-![Farmers Market Finder - Animated gif demo](FastSLAM/demo/fastslam.gif)
+![GitHub Logo](FastSLAM/demo/fastslam.gif)
 
 (1) The arrow represent the position and orientation of the particle with the highest weight (which could be different at different time step).\
 (2)The red dots represent the position of each particle.\
@@ -22,9 +22,9 @@
 
 ## ICP
 
-![Farmers Market Finder - Animated gif demo](ICP/demo/icp_a.gif)
+![GitHub Logo](ICP/demo/icp_a.gif)
 
-![Farmers Market Finder - Animated gif demo](ICP/demo/icp_b.gif)
+![GitHub Logo](ICP/demo/icp_b.gif)
 
 (1) The black dots X are in the reference reference point set.\
 (2) The blue dots P0 are the points to be matched with the reference.\
@@ -34,45 +34,45 @@
 ## Path planning
 
 **Dijkstra's algorithm**\
-Cells expanded : 605
-Path cost      : 36.948820168213054
-Path length    : 36.38477631085024
-![Farmers Market Finder - Animated gif demo](Path_planning/demo/dijkstra.gif)
+Cells expanded : 605\
+Path cost      : 36.948820168213054\
+Path length    : 36.38477631085024\
+![GitHub Logo](Path_planning/demo/dijkstra.gif)
 
 Cost map (the path cost from source to the cell)\
 ![GitHub Logo](Path_planning/demo/dijkstra.png)
 
 **A\* search**
-cells expanded : 391
-path cost      : 36.948820168213054
-path length    : 36.384776310850235
-![Farmers Market Finder - Animated gif demo](Path_planning/demo/a1.gif)
+cells expanded : 391\
+path cost      : 36.948820168213054\
+path length    : 36.384776310850235\
+![GitHub Logo](Path_planning/demo/a1.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_1.png)
 
 **A\* search with factor equal to 2 (inflating the estimate of the cost to the goal from the cell)**
-cells expanded : 91
-path cost      : 38.24887217029314
-path length    : 35.79898987322333
-![Farmers Market Finder - Animated gif demo](Path_planning/demo/a2.gif)
+cells expanded : 91\
+path cost      : 38.24887217029314\
+path length    : 35.79898987322333\
+![GitHub Logo](Path_planning/demo/a2.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_2.png)
 
 **A\* search with factor equal to 5**
-cells expanded : 55
-path cost      : 51.380793533213904
-path length    : 32.38477631085024
-![Farmers Market Finder - Animated gif demo](Path_planning/demo/a5.gif)
+cells expanded : 55\
+path cost      : 51.380793533213904\
+path length    : 32.38477631085024\
+![GitHub Logo](Path_planning/demo/a5.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_5.png)
 
 **A\* search with factor equal to 10**
-cells expanded : 39
-path cost      : 57.33219203765201
-path length    : 42.28427124746189
+cells expanded : 39\
+path cost      : 57.33219203765201\
+path length    : 42.28427124746189\
 ![GitHub Logo](Path_planning/demo/a10.gif)
 
 Cost map\
