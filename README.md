@@ -42,7 +42,7 @@ Path length    : 36.38477631085024\
 Cost map (the path cost from source to the cell)\
 ![GitHub Logo](Path_planning/demo/dijkstra.png)
 
-**A\* search**
+**A\* search**\
 cells expanded : 391\
 path cost      : 36.948820168213054\
 path length    : 36.384776310850235\
@@ -51,7 +51,7 @@ path length    : 36.384776310850235\
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_1.png)
 
-**A\* search with factor equal to 2 (inflating the estimate of the cost to the goal from the cell)**
+**A\* search with factor equal to 2 (inflating the estimate of the cost to the goal from the cell)**\
 cells expanded : 91\
 path cost      : 38.24887217029314\
 path length    : 35.79898987322333\
@@ -60,7 +60,7 @@ path length    : 35.79898987322333\
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_2.png)
 
-**A\* search with factor equal to 5**
+**A\* search with factor equal to 5**\
 cells expanded : 55\
 path cost      : 51.380793533213904\
 path length    : 32.38477631085024\
@@ -69,7 +69,7 @@ path length    : 32.38477631085024\
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_5.png)
 
-**A\* search with factor equal to 10**
+**A\* search with factor equal to 10**\
 cells expanded : 39\
 path cost      : 57.33219203765201\
 path length    : 42.28427124746189\
