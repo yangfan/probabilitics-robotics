@@ -8,6 +8,13 @@
 
 ![GitHub Logo](Kalman_filter/demo/kalman_filter.gif)
 
+## Extended Kalman Filter SLAM
+
+![GitHub Logo](EKF_SLAM/demo/ekf_slam.gif)
+
+The ellipses are the error ellipses of estimated position of robot and landmarks.\
+Code in Octave.
+
 ## FastSLAM
 
 ![GitHub Logo](FastSLAM/demo/fastslam.gif)
