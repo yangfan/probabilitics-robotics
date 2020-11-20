@@ -73,7 +73,7 @@ K = (sigma * H') * inv(H * sigma * H' + Q);
 % Compute the difference between the expected and recorded measurements.
 % Remember to normalize the bearings after subtracting!
 delta = normalize_all_bearings(Z - expectedZ);
-% TODO: Finish the correction step by computing the new mu and sigma.
+% Finish the correction step by computing the new mu and sigma.
 % Normalize theta in the robot pose.
 mu_corrected = mu + K * delta;
 sigma_corrected = (eye(size(mu, 1)) - K * H) * sigma;
