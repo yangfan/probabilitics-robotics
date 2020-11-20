@@ -40,6 +40,7 @@ Code in Octave.
 
 ## Path planning
 
+**Goal: compute path with minimum path cost**\
 **Dijkstra's algorithm**\
 Cells expanded : 605\
 Path cost      : 36.948820168213054\
@@ -50,36 +51,36 @@ Cost map (the path cost from source to the cell)\
 ![GitHub Logo](Path_planning/demo/dijkstra.png)
 
 **A\* search**\
-cells expanded : 391\
-path cost      : 36.948820168213054\
-path length    : 36.384776310850235\
+Cells expanded : 391\
+Path cost      : 36.948820168213054\
+Path length    : 36.384776310850235\
 ![GitHub Logo](Path_planning/demo/a1.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_1.png)
 
 **A\* search with factor equal to 2 (inflating the estimate of the cost to the goal from the cell)**\
-cells expanded : 91\
-path cost      : 38.24887217029314\
-path length    : 35.79898987322333\
+Cells expanded : 91\
+Path cost      : 38.24887217029314\
+Path length    : 35.79898987322333\
 ![GitHub Logo](Path_planning/demo/a2.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_2.png)
 
 **A\* search with factor equal to 5**\
-cells expanded : 55\
-path cost      : 51.380793533213904\
-path length    : 32.38477631085024\
+Cells expanded : 55\
+Path cost      : 51.380793533213904\
+Path length    : 32.38477631085024\
 ![GitHub Logo](Path_planning/demo/a5.gif)
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_5.png)
 
 **A\* search with factor equal to 10**\
-cells expanded : 39\
-path cost      : 57.33219203765201\
-path length    : 42.28427124746189\
+Cells expanded : 39\
+Path cost      : 57.33219203765201\
+Path length    : 42.28427124746189\
 ![GitHub Logo](Path_planning/demo/a10.gif)
 
 Cost map\
