@@ -10,6 +10,10 @@
 
 ## Occupancy grid mapping
 
+<p align="center">
+  <img src="[http://some_place.com/image.png](https://github.com/fanyang805/probabilitics-robotics/blob/master/Grid_map/demo/gridmap-s5.gif)" />
+</p>
+
 ![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
 
 ![GitHub Logo](Grid_map/demo/gridmap_s5_686.png)
