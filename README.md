@@ -10,18 +10,12 @@
 
 ## Occupancy grid mapping
 
-Gird size: 0.5 meter.\
-Code in Octave (Matlab).
 ![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
 
-Obtained occupancy map:
 ![GitHub Logo](Grid_map/demo/gridmap_s5_686.png)
-
-Gird size: 0.1 meter.
 
 ![GitHub Logo](Grid_map/demo/gridmap-s1.gif)
 
-Obtained occupancy map:
 ![GitHub Logo](Grid_map/demo/gridmap_s1_686.png)
 
 ## Extended Kalman Filter SLAM
