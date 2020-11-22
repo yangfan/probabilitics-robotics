@@ -10,17 +10,11 @@
 
 ## Occupancy grid mapping
 
-<p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/fanyang805/probabilitics-robotics/blob/master/Grid_map/demo/gridmap-s5.gif)" />
-</p>
-
+Grid size: 0.5 meter
 ![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
 
-![GitHub Logo](Grid_map/demo/gridmap_s5_686.png)
-
+Grid size: 0.1 meter
 ![GitHub Logo](Grid_map/demo/gridmap-s1.gif)
-
-![GitHub Logo](Grid_map/demo/gridmap_s1_686.png)
 
 ## Extended Kalman Filter SLAM
 
