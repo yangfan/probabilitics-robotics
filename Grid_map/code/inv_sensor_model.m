@@ -42,9 +42,6 @@ freeCells = [];
 % Iterate over each laser beam and compute freeCells.
 % Use the bresenham method available to you in tools for computing the X and Y
 % coordinates of the points that lie on a line.
-% Example use for a line between points p1 and p2:
-% [X,Y] = bresenham(map,[p1_x, p1_y; p2_x, p2_y]);
-% You only need the X and Y outputs of this function.
 for sc=1:columns(laserEndPntsMapFrame)
   
   % compute the XY map coordinates of the free cells along the laser beam ending in laserEndPntsMapFrame(:,sc)
