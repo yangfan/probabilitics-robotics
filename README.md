@@ -8,12 +8,28 @@
 
 ![GitHub Logo](Kalman_filter/demo/kalman_filter.gif)
 
+## Occupancy grid mapping
+
+Gird size: 0.5 meter.\
+Code in Octave (Matlab).
+![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
+
+Obtained occupancy map:
+![GitHub Logo](Grid_map/demo/gridmap_s5_686.png)
+
+Gird size: 0.1 meter.
+
+![GitHub Logo](Grid_map/demo/gridmap-s1.gif)
+
+Obtained occupancy map:
+![GitHub Logo](Grid_map/demo/gridmap_s1_686.png)
+
 ## Extended Kalman Filter SLAM
 
 ![GitHub Logo](EKF_SLAM/demo/ekf_slam.gif)
 
 The ellipses are the error ellipses of estimated position of robot and landmarks.\
-Code in Octave.
+Code in Octave (Matlab).
 
 ## FastSLAM
 
