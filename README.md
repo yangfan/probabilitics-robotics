@@ -10,10 +10,12 @@
 
 ## Occupancy grid mapping
 
-Grid size: 0.5 meter
+Grid size: 0.5 meter\
+
 ![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
 
-Grid size: 0.1 meter
+Grid size: 0.1 meter\
+
 ![GitHub Logo](Grid_map/demo/gridmap-s1.gif)
 
 ## Extended Kalman Filter SLAM
