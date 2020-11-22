@@ -11,6 +11,7 @@
 ## Occupancy grid mapping
 
 Grid size: 0.5 meter\
+Code in Octave (Matlab)\
 ![GitHub Logo](Grid_map/demo/gridmap-s5.gif)
 
 Grid size: 0.1 meter\
