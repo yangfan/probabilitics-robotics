@@ -10,6 +10,7 @@ function plot_state(mu, sigma, landmarks, timestep, observedLandmarks, z, window
     clf;
     hold on
     grid("on")
+    axis equal;
     L = struct2cell(landmarks); 
     drawprobellipse(mu(1:3), sigma(1:3,1:3), 0.6, 'r');
     L_x = cell2mat(L(2,:));
