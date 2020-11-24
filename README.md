@@ -21,8 +21,9 @@ Grid size: 0.1 meter\
 
 ![GitHub Logo](EKF_SLAM/demo/ekf_slam.gif)
 
-(1) The black crosses are the ground truth location of the landmarks.
-(2) The ellipses are the error ellipses of estimated position of robot and landmarks.\
+(1) The red dot and bar indicate the pose estimate of the robot.\
+(2) The black crosses are the ground truth location of the landmarks.\
+(3) The ellipses are the error ellipses of estimated position of robot and landmarks.\
 Code in Octave (Matlab).
 
 ## Unscented Kalman Filter SLAM
