@@ -44,17 +44,6 @@ Code in Octave (Matlab).
 (6) The blue dots represent the estimated landmark positions of each particle.\
 (7) The ellipse is the error ellipse of estimated landmark positions of the particle with the highest weight.
 
-## ICP
-
-![GitHub Logo](ICP/demo/icp_a.gif)
-
-![GitHub Logo](ICP/demo/icp_b.gif)
-
-(1) The black dots X are in the reference reference point set.\
-(2) The blue dots P0 are the points to be matched with the reference.\
-(3) The red dots P are the point set after the rotation and translation in each iteration.\
-(4) The lines between X and P indicate the matches.\
-
 ## Path planning
 
 **Goal: compute path with minimum path cost**\
@@ -102,3 +91,20 @@ Path length    : 42.28427124746189\
 
 Cost map\
 ![GitHub Logo](Path_planning/demo/a_10.png)
+
+## ICP
+
+![GitHub Logo](ICP/demo/icp_a.gif)
+
+![GitHub Logo](ICP/demo/icp_b.gif)
+
+(1) The black dots X are in the reference reference point set.\
+(2) The blue dots P0 are the points to be matched with the reference.\
+(3) The red dots P are the point set after the rotation and translation in each iteration.\
+(4) The lines between X and P indicate the matches.\
+
+## Odometry Calibration using least squares method
+
+![GitHub Logo](Odometry_calibration/demo/odometry-calibration.png)
+
+The red line is the ground truth trajectory while the orange line is the trajectory after the calibration.
