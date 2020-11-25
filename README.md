@@ -105,6 +105,6 @@ Cost map\
 
 ## Odometry Calibration using least squares method
 
-![GitHub Logo](Odometry_calibration/demo/odometry-calibration.png)
+![GitHub Logo](Odometry_calibration/demo/odometry_calibration.png)
 
 The red line is the ground truth trajectory while the orange line is the trajectory after the calibration.
