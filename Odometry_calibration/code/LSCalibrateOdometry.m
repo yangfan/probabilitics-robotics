@@ -31,4 +31,7 @@ plot(
   odom_trajectory(:,1), odom_trajectory(:,2), ";Uncalibrated Odometry;",
   scanmatch_trajectory(:,1), scanmatch_trajectory(:,2), ";Scan-Matching;",
   calibrated_trajectory(:,1), calibrated_trajectory(:,2), ";Calibrated Odometry;");
-print -dpng "../plots/odometry-calibration.png"
+title('Odometry Calibration');
+xlabel('x');
+ylabel('y');
+print -dpng "../demo/odometry-calibration.png"
