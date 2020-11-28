@@ -48,6 +48,8 @@ Code in Octave (Matlab).
 
 **Given the graph in which every node corresponds to a pose of the robot during mapping and every edge corresponds to a spatial constraint between two nodes (obtained by Front-End), find a node configuration that minimize the error introduced by the constraints.**
 
+Blue crosses represent the nodes. Red dots represent the landmarks. Green lines represent the edges.
+
 Code in Octave/Matlab.
 
 Initial error : 138862234.075303\
