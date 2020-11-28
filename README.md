@@ -48,6 +48,8 @@ Code in Octave (Matlab).
 
 **Given the graph in which every node corresponds to a pose of the robot during mapping and every edge corresponds to a spatial constraint between two nodes (obtained by Front-End), find a node configuration that minimize the error introduced by the constraints.**
 
+Code in Octave/Matlab.
+
 Initial error : 138862234.075303\
 Final error   : 8269.422756\
 Data set      : simulation-pose-pose.dat\
@@ -132,3 +134,5 @@ Cost map\
 ![GitHub Logo](Odometry_calibration/demo/odometry_calibration.png)
 
 The red line is the ground truth trajectory while the orange line is the trajectory after the calibration.
+
+Code in Octave/Matlab.
