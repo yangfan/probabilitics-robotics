@@ -44,6 +44,30 @@ Code in Octave (Matlab).
 (6) The blue dots represent the estimated landmark positions of each particle.\
 (7) The ellipse is the error ellipse of estimated landmark positions of the particle with the highest weight.
 
+## Graph-Based SLAM (Back-End)
+
+**Given the graph in which every node corresponds to a pose of the robot during mapping and every edge corresponds to a spatial constraint between two nodes (obtained by Front-End), find a node configuration that minimize the error introduced by the constraints.**
+
+Initial error : 138862234.075303\
+Final error   : 8269.422756\
+Data set      : simulation-pose-pose.dat\
+![GitHub Logo](Graph_SLAM/demo/graph-slam-pose-pose.gif)
+
+Initial error : 3030.313893\
+Final error   : 474.099651\
+Data set      : simulation-pose-landmark.dat\
+![GitHub Logo](Graph_SLAM/demo/graph-slam-pose-landmark.gif)
+
+Initial error : 1795138.990772\
+Final error   : 359.996112\
+Data set      : intel.dat\
+![GitHub Logo](Graph_SLAM/demo/graph-slam-intel.gif)
+
+Initial error : 369655335.570543\
+Final error   : 56860.352915\
+Data set      : dlr.dat\
+![GitHub Logo](Graph_SLAM/demo/graph-slam-dlr.gif)
+
 ## Path planning
 
 **Goal: compute path with minimum path cost**\
