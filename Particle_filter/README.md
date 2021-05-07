@@ -15,24 +15,26 @@ Particle filter is an implementation of recursive Bayesian filter. The posterior
    $$P(z_t|x_t)$$.  
 3. In the resampling step (importance sampling essentially), new particles are draw with a probability proportional to the weights, which account for the difference between the proposal and target distribution.
 
-The pseudocode[1] is presented below:
+<!-- The pseudocode[1] is presented below:
 
-![GitHub Logo](demo/PF.png)
+![GitHub Logo](demo/PF.png) -->
 
 ## Code Explanation
 
 There are three key functions in this implementation.
 
-1. `sample_motion_model(odometry, particles)`: take as inputs the odometry and the current set of particles, sample new particles based on the odometry motion model and the motion noise. The pseudocode<sup>[1]</sup> is presented below.
+1. `sample_motion_model(odometry, particles)`: take as inputs the odometry and the current set of particles, sample new particles based on the odometry motion model and the motion noise. 
 
-![GitHub Logo](demo/motion-model.png)
+   <!-- The pseudocode<sup>[1]</sup> is presented below.
 
-2. `eval_sensor_model(sensor_data, particles, landmarks)`: given the sensor readings, partcles sampled from motion model, the ground-truth position of landmarks, measurement noise, compute the weights of samples from observation models, i.e., 
+![GitHub Logo](demo/motion-model.png) -->
+
+1. `eval_sensor_model(sensor_data, particles, landmarks)`: given the sensor readings, partcles sampled from motion model, the ground-truth position of landmarks, measurement noise, compute the weights of samples from observation models, i.e., 
    $$w_t = P(z_t|x_t)$$. 
 
-3. `resample_particles(particles, weights)`: draw with replacement $$M$$ (size of particle set) particles from the given set with probability equal to the weight. The resampling is implemented by the low variance resampling with linear complexity.
+2. `resample_particles(particles, weights)`: draw with replacement $$M$$ (size of particle set) particles from the given set with probability equal to the weight. The resampling is implemented by the low variance resampling with linear complexity.
 
-![GitHub Logo](demo/resampling.png)
+<!-- ![GitHub Logo](demo/resampling.png) -->
 
 ### References
 
