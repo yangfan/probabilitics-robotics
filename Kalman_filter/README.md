@@ -1,4 +1,4 @@
-# Exteneded Kalman Filter
+# Extended Kalman Filter
 
 The Kalman filter is a technique for filtering and prediction in linear Gaussian systems. It is assumed that
 
